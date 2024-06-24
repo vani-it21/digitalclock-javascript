@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:100vh;
+    justify-content: center;
+    background-image: url("https://media.istockphoto.com/id/925440650/photo/underwater-bubbles.jpg?s=612x612&w=0&k=20&c=k_iJkW8e2l7UdUvxRviAFanteIKgsOUYDkWtBrl8nzs=")  ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h2{
+    text-transform: uppercase;
+    letter-spacing:4px;
+    font-size:25px;
+    text-align:center;
+    color:rgb(228, 144, 34);
+
+}
+.clock{
+    display:flex;
+
+}
+.clock div{
+    margin:5px;
+    position:relative;
+}
+.clock span{
+    width:100px;
+    height:60px;
+    background: #fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+}
+.clock .text{
+    height: 30px;
+    font-size:20px ;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    background:#b8b2b2;
+    color:#3057e6;
+
+}
+
+.clock #ampm{
+    bottom: 0;
+    position:absolute;
+    width:60px;
+    height:40px;
+    font-size:20px;
+    
+    
+}
